@@ -1,82 +1,122 @@
 
 <!DOCTYPE html>
-<html lang= "en">
-    <head>
-        <title></title>
+<html>
+<head>
+    <title>Varun Resume</title>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 
-    </head>
-    <body>
-        <header id="body-header">
-            <nav>
-                <ul class="Horizontal-list text-center nav-menu">
+    <header id="body-header">
+        <nav>
+            
+            <div class = "dropdown-menu text-right">
+                <div class="bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class ="dropdown-list nav-menu">
+                    <ul class = "no-list-style">
+                        <li >
+                            <a href="#"> Home </a>
+                        </li>
+                        <li>
+                            <a href="#about"> About </a>
+                        </li>
+                        <li>
+                            <a href="#skills"> Skills </a>
+                        </li>
+                        <li>
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    </div>
+
+             </div>   
+
+            <ul class="no-list-style horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="#about"> About </a>
+                </li>
+                <li>
+                    <a href="#skills"> Skills </a>
+                </li>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Varun Chawla</h1>
+            </div>
+            <div>
+                <ul class="no-list-style horizontal-list text-center social-icons">
                     <li>
-                        <a href="#Home"><b>Home</b></a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </li>
-
                     <li>
-                        <a href="#About"><b>About</b></a>
+                        <a href="#">
+                            <i class="fab fa-stack-overflow"></i>
+                        </a>
                     </li>
-
                     <li>
-                        <a href="#Skills"><b>Skills</b></a>
+                        <a href="#">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
                     </li>
-
                     <li>
-                        <a href="#experience"><b>Experience</b></a>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
                     </li>
-
                     <li>
-                        <a href="#education"><b>Education</b></a>
-                    </li>
-
-                    <li>
-                        <a href="#Portfolio"><b>Portfolio</b></a>
-                    </li>
-
-                    <li>
-                        <a href="#contact"><b>Contact</b></a>
+                        <a href="#">
+                            <i class="fab fa-quora"></i>
+                        </a>
                     </li>
                 </ul>
-            </nav>
 
-            <div id="name-social-container">
-                <div class="text-center">
-                    <h1 id="my-name">
-                        Varun Chawla
-                    </h1>
-                </div>
-                <div >
-                    <ul class=" text-center social-icons">
-                        <li>
-                           <a href="https://www.linkedin.com/in/varun-chawla-9b20511b8/"><i style="color: rgba(0, 0, 0, 0.788);" class="fab fa-linkedin-in"></i></a>
-                        </li>
-                        <li>
-                           <a href="https://stackoverflow.com/users/15917504/varun-chawla?tab=profile"><i style="color: rgba(0, 0, 0, 0.788);" class="fab fa-stack-overflow"></i></a>
-                        </li>
-                        
-                        <li>
-                          <a href="https://www.facebook.com/varun.chawla.3114/"><i style="color: rgba(0, 0, 0, 0.788);" class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.quora.com/profile/Varun-Chawla-135"><i style="color: rgba(0, 0, 0, 0.788);" class="fab fa-quora"></i></a>
-                        </li>
-
-                        
-                    </ul>
-                </div>
             </div>
 
-        </header>
-        <MAIN>
-            <section id="About">
-                <div id="my-image">
-                    <img src="img/profile.jpeg">
-                </div>
+        </div>
+
+    </header>
+    <main>
+
+        <section id="about">
+            <div id="my-image">
+                <img src="img/profile.jpeg">
+            </div>
+
+            <div id="about-para">
+
                 <p>
                     I am flexible, reliable and possess excellent time keeping skills. 
                     I am an enthusiastic, self-motivated, reliable, responsible and  Hard-working individual with proficiency in HTML, JavaScript, and CSS,
@@ -84,75 +124,72 @@
                     and possessing a strong willingness to learn about entrepreneurship and business.  
                     I am a mature team worker and adaptable to all challenging situations. 
                     I am able to work well both in a team environment as well as using own initiative.
-                   
                 </p>
 
-            </section>
-            <section id="Skills">
-                <h1 class="section-heading mb75px">
-                    <span>
-                        
-                        <i class="fas fa-laptop"></i>
-                    
-                    <span>
-                        SKILLS
-                    </span>
-                </h1>
-                <div class="skills-display">
-                    <div class="skill-progress">
-                        <div class="eighty-five-percent mb-blue">
-                            <div class="skill-name">
-                                <span>HTML</span>
-                            </div>
-                        </div>
-                    </div>
-                
-                
-                    <div class="skill-progress">
-                        <div class="seventy-five-percent mb-blue">
-                            <div class="skill-name">
-                                <span>CSS</span>
-                            </div>
-                        </div>
-                    </div>
+            </div>
 
-                    <div class="skill-progress">
-                        <div class="eighty-five-percent mb-blue">
-                            <div class="skill-name">
-                                <span>BOOTSTRAP</span>
-                            </div>
+        </section>
+
+
+
+        <section id="skills">
+            <h1 class="section-heading mb75px ">
+                <span>
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </span>
+                <span> SKILLS </span>
+            </h1>
+
+            <div class="skills-display">
+
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-blue">
+                        <div class="skill-name">
+                            <span> Python </span>
                         </div>
                     </div>
-
-                    <div class="skill-progress">
-                        <div class="sixty-five-percent mb-blue">
-                            <div class="skill-name">
-                                <span>JAVASCRIPT</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-progress">
-                        <div class="sixty-five-percent mb-blue">
-                            <div class="skill-name">
-                                <span>PYTHON</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-progress">
-                        <div class="seventy-five-percent mb-blue">
-                            <div class="skill-name">
-                                <span>REACT-JS</span>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-            </section>
+                <div class="skill-progress">
+                    <div class="eighty-five-percent mb-orange">
+                        <div class="skill-name">
+                            <span> HTML </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> CSS </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-teal">
+                        <div class="skill-name">
+                            <span> Javascript </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="fifty-percent mb-blue">
+                        <div class="skill-name">
+                            <span> REact-js </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-progress">
+                    <div class="eighty-percent mb-light-purple">
+                        <div class="skill-name">
+                            <span> Bootstrap </span>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
 
-            <section id="experience">
+        </section>
+
+        <section id="experience">
 
             <h1 class="section-heading mb75px">
                 <span>
@@ -166,17 +203,25 @@
                 <div class="timeline-box ">
                     <div class="timeline-container">
                         <div class="timeline-logo">
-                            
+                            <img src="">
                         </div>
                         <h3 class="experience-designation  m0 m-blue"> Front-End Web Developer </h3>
                         <h4 class="experience-company-name"> LabColabs </h4>
                         <h5 class="experience-duration m0"> March 2021 - May 2021 </h5>
 
-                        <p class="experience-description text-align-justify">  </p>
+                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
                 
                 
+
+                <div id="timeline-divider">
+                    <div class="timeline-traveller">
+                        <div>
+                            <i class="fas fa-plane"></i>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
@@ -202,7 +247,7 @@
                         <h4 class="experience-company-name "> ST Thomas School </h4>
                         <h5 class="experience-duration m0"> 2009-2016 </h5>
 
-                        <p class="experience-description text-align-justify"></p>
+                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
                 
@@ -214,7 +259,7 @@
                         <h3 class="experience-designation  m0 m-blue"> Secondary School </h3>
                         <h4 class="experience-company-name "> ST Thomas School</h4>
                         <h5 class="experience-duration m0"> 20016-2018 </h5>
-                        <p class="experience-description text-align-justify">  </p>
+                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
 
@@ -227,7 +272,7 @@
                         <h4 class="experience-company-name "> Panipat Institute of Engg. & Tech. </h4>
                         <h5 class="experience-duration m0"> 2018 - 2022 </h5>
 
-                        <p class="experience-description text-align-justify">  </p>
+                        <p class="experience-description text-justify"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     </div>
                 </div>
                 
@@ -243,60 +288,67 @@
 
         </section>
 
+        <section id="portfolio">
+            <h1 class="section-heading mb75px">
+                <span>
+                    <i class="fas fa-th-list"></i>
+                </span>
+                <span> Portfolio </span>
+            </h1>
 
+            <div id="portfolio-container">
 
-           
-            <section id="Portfolio">
-                <h1 class="section-heading mb75px">
-                    <span>
-                        <i class="fas fa-bars"></i>
-                        
-                    
-                    <span>
-                        PORTFOLIO
-                    </span>
-                </h1>
-                <div class="portfolio-display">
-                    <div class="portfolio-progress">
-                        <div id="p-image">
-                           <a href="https://drive.google.com/drive/folders/1OX1S-KEB7VURHL-8ssNnzFgUUd5yQiZJ?usp=sharing"><img src="img/p1.jpg"></a> 
-                        </div>
-                        
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    <div class="portfolio-details">
+                        <p>
+                            Write here basic details about the project.
+                        </p>
                     </div>
-                    <div class="portfolio-progress">
-                        <div id="p-image">
-                            <a href="https://drive.google.com/drive/folders/1_R0nWtLViBLASUqNQKPzJveytOXNu6pz?usp=sharing"><img src="img/p1.jpg"></a> 
-                         </div>
 
-                    </div>
-                    <div class="portfolio-progress">
-                        <div id="p-image">
-                            <a href="https://drive.google.com/drive/folders/1CnfV3hc9YPMLgHHvfQ9RoaHEpQo3x1pd?usp=sharing"><img src="img/p1.jpg"></a> 
-                         </div>
-
-                    </div>
                 </div>
-            </section>
-            <section id="contact">
-                <h1 class="section-heading mb50px">
-                    <span>
-                        <i class="far fa-address-card"></i>
-                    </span>
-                    <span> Contact </span>
-                </h1>
-                <div id="contact-container">
-    
-                    <div id="contact-form-container">
-                        <form id="contact-form">
-                            <input id="input-name" name="name" type="text" placeholder="Your Name">
-                            <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
-                            <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
-                            <button class="sub-btn" type="submit">SEND MESSAGE</button>
-                        </form>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    <div class="portfolio-details">
+                        <p>
+                            Write here basic details about the project.
+                        </p>
                     </div>
-                    <div id="my-details-container">
-    
-                        <h3> Get In touch </h3>
+
+                </div>
+                <div class="portfolio-image-container">
+                    <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png">
+                    <div class="portfolio-details">
+                        <p>
+                            Write here basic details about the project.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-heading mb50px">
+                <span>
+                    <i class="far fa-address-card"></i>
+                </span>
+                <span> Contact </span>
+            </h1>
+            <div id="contact-container">
+
+                <div id="contact-form-container">
+                    <form id="contact-form">
+                        <input id="input-name" name="name" type="text" placeholder="Your Name">
+                        <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+                        <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
+                        <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div id="my-details-container">
+
+                    <h3> Get In touch </h3>
                         <p> Hi,its me Varun Chawla (Front-End Web Developer) . 
                             if you have anything to ask or suggestion please contact.  </p>
     
@@ -313,39 +365,41 @@
                             <i class="far fa-envelope"></i>
                             <span>varunchawla2310@gmail.com</span>
                         </div>
-                    </div>
                 </div>
-    
-                <div class="text-center social-icons">
-    
-                    <ul class="horizontal-list">
-    
-                        <li>
-                            <a href="https://www.linkedin.com/in/varun-chawla-9b20511b8/">
-                                <i style="color: white;"class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-    
-                        <li>
-                            <a href="https://stackoverflow.com/users/15917504/varun-chawla?tab=profile" target="_blank">
-                                <i style="color: white;"class="fab fa-stack-overflow"></i>
-                            </a>
-                        </li>
-    
-                        <li>
-                            <a href="https://www.facebook.com/varun.chawla.3114/">
-                                <i style="color: white;"class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-    
-                        <li>
-                            <a href="https://www.quora.com/profile/Varun-Chawla-135" target="_blank">
-                                <i style="color: white;" class="fab fa-quora"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </MAIN>
-    </body>
+            </div>
+
+            <div class="text-center social-icons">
+
+                <ul class="no-list-style horizontal-list">
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/varun-chawla-9b20511b8/">
+                            <i style="color: white;"class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://stackoverflow.com/users/15917504/varun-chawla?tab=profile" target="_blank">
+                            <i style="color: white;"class="fab fa-stack-overflow"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/varun.chawla.3114/">
+                            <i style="color: white;"class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.quora.com/profile/Varun-Chawla-135" target="_blank">
+                            <i style="color: white;" class="fab fa-quora"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+</body>
 </html>
